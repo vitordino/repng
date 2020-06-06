@@ -24,6 +24,7 @@
     "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.8.3",
+    "@babel/preset-typescript": "^7.10.1",
     "@babel/register": "^7.8.6",
     "datauri": "^2.0.0",
     "meow": "^6.0.1",
