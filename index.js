@@ -1,12 +1,3 @@
-require('@babel/register')({
-  plugins: [
-  ].map(require.resolve),
-  presets: [
-    '@babel/preset-env',
-    '@babel/preset-react'
-  ].map(require.resolve)
-})
-
 const fs = require('fs')
 const puppeteer = require('puppeteer')
 const { Readable } = require('stream')
