@@ -2,6 +2,7 @@ require('@babel/register')({
   plugins: [
   ].map(require.resolve),
   presets: [
+    '@babel/preset-typescript',
     '@babel/preset-env',
     '@babel/preset-react'
   ].map(require.resolve)
