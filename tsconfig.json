@@ -20,6 +20,9 @@
     "jsx": "react",
     "baseUrl": "src"
   },
+  "ts-node": {
+    "transpileOnly": true
+  },
   "include": [
     "src"
   ]

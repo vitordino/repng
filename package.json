@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/jxnblk/repng.git",
   "bin": {
-    "repng": "babel-node ./cli.js"
+    "repng": "node-ts ./cli.js"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -32,7 +32,9 @@
     "react": "^16.8.4",
     "react-dom": "^16.8.4",
     "read-pkg-up": "^7.0.1",
-    "resolve-cwd": "^3.0.0"
+    "resolve-cwd": "^3.0.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
   },
   "devDependencies": {
     "@babel/core": "^7.10.2",
