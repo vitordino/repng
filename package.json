@@ -5,12 +5,11 @@
   "main": "index.js",
   "repository": "https://github.com/jxnblk/repng.git",
   "bin": {
-    "repng": "./cli.js"
+    "repng": "babel-node ./cli.js"
   },
   "engines": {
     "node": ">=10.0.0"
   },
-  "type": "module",
   "scripts": {
     "test": "nyc ava",
     "cover": "nyc report --reporter html",
@@ -22,7 +21,6 @@
     "help": "./cli.js --help"
   },
   "dependencies": {
-    "@babel/core": "^7.4.4",
     "@babel/preset-env": "^7.4.4",
     "@babel/preset-react": "^7.8.3",
     "@babel/preset-typescript": "^7.10.1",
@@ -37,6 +35,8 @@
     "resolve-cwd": "^3.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.10.2",
+    "@babel/node": "^7.10.1",
     "ava": "^3.5.0",
     "is-stream": "^2.0.0",
     "nyc": "^15.0.0"
